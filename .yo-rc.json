@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Jonathan Quintana",
+      "authorEmail": "jonathan.quintana.sasf@gmail.com",
+      "authorUrl": "https://github.com/jquintanas/cliSasf"
+    }
+  }
+}

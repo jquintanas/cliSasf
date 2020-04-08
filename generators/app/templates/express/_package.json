@@ -1,0 +1,36 @@
+{
+  "name": "<%= appName %>",
+  "version": "1.0.0",
+  "author": "<%= autor %>",
+  "description": "<%= descripcion %>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+<%= repositorio %>.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "<%= repositorio %>/issues"
+  },
+  "homepage": "<%= repositorio %>#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.10.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.4",
+    "@types/morgan": "^1.9.0",
+    "nodemon": "^2.0.2"
+  }
+}
