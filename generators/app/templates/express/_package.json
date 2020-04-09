@@ -1,5 +1,5 @@
 {
-  "name": "<%= appName %>",
+  "name": "<%= empresa %>-<%= appName %>",
   "version": "1.0.0",
   "author": "<%= autor %>",
   "description": "<%= descripcion %>",
@@ -14,7 +14,7 @@
     "url": "git+<%= repositorio %>.git"
   },
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "<%= repositorio %>/issues"
   },
